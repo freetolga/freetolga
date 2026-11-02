@@ -6,6 +6,12 @@ I'm currently learning: ThreadX RTOS with STM32 black pill
 
 ## Project Hall of Fame
 
+### Gentoo Phone and server
+i have a bad wiki page on gentoo wiki https://wiki.gentoo.org/wiki/User:Librecat/Redmi_Note_12_Pro_4G(sweet_k6a) but i once got gentoo running on this postmarketOS phone with custom pacakged SXMO https://sxmo.org working good enough as a demo but i didnt package the qualcomm modem daemons so it was a wierd and dumb phone and i also didnt package the entire SXMO suite but good enough?
+
+
+i also have a few gentoo server attempts
+
 ### HyperbolaBSD debugging
 i made the /sbin/init in userspace-alpha work by static linking it and many other(about half) binaries by editing common makefiles like bsd.prog.mk instead of the program specfiic makefiles and also somehow made it cross-compile from a linux environment by making the openbsd based kernel boot from ext2(nothing special) and made a boot image builder using grub2
 
@@ -22,7 +28,7 @@ https://git.disroot.org/librecat/aports (moving to github soon)
 
 ### c + lua package manager attempt
 
-very work in progress and no clear vision but its called kittypkg or hyperpkg in https://git.disroot.org/librecat and https://git.disroot.org/kittylinux
+~~very work in progress and no clear vision but its called kittypkg or hyperpkg in https://git.disroot.org/librecat and https://git.disroot.org/kittylinux~~ disroot has temporary outage and i decided to use python to serialize and deserialize alpine APKBUILD files
 
 you can find me on linkedin or kariyer.net
 
